@@ -1,0 +1,68 @@
+---
+title: ""
+pagetitle: "Contact — Voyara"
+page-layout: full
+toc: false
+---
+
+::: {.full-bleed .hero style="padding:7rem 1.5rem 4rem;"}
+::: {.hero-inner}
+[Get in touch]{.eyebrow}
+
+# Let's plan your [next move]{}
+
+::: {.lead}
+Tell us a little about what you need. We'll get back to you within one business day.
+:::
+:::
+:::
+
+::: {.section}
+
+::: {.v-form}
+<div class="v-row">
+  <div>
+    <label for="name">Full name</label>
+    <input id="name" type="text" placeholder="Your name">
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="you@email.com">
+  </div>
+</div>
+
+<div class="v-row">
+  <div>
+    <label for="phone">Phone</label>
+    <input id="phone" type="tel" placeholder="+41 ...">
+  </div>
+  <div>
+    <label for="service">I'm interested in</label>
+    <select id="service">
+      <option>Tour planning</option>
+      <option>Visa assistance</option>
+      <option>Flight tickets</option>
+      <option>Study abroad</option>
+      <option>Something else</option>
+    </select>
+  </div>
+</div>
+
+<div>
+  <label for="msg">Tell us more</label>
+  <textarea id="msg" rows="5" placeholder="Destination, rough dates, number of travelers, budget..."></textarea>
+</div>
+
+<button class="btn-voyara btn-voyara-primary" type="button" onclick="document.getElementById('sent').style.display='block';">Send inquiry</button>
+
+<p id="sent" style="display:none; color:var(--voyara-teal-dk); font-weight:600;">Thanks! This is a demo form — connect it to your email service or a tool like Formspree to receive messages.</p>
+:::
+
+::: {.section-head style="margin-top:3rem;"}
+### Prefer to reach us directly?
+Email **hello@voyara.example** · Phone **+41 00 000 00 00** · Hours **Mon–Sat, 9am–7pm**
+:::
+
+:::
+
+<script src="assets/js/reveal.js"></script>

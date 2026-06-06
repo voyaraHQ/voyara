@@ -1,0 +1,95 @@
+---
+title: ""
+pagetitle: "About — Voyara"
+page-layout: full
+toc: false
+---
+
+::: {.full-bleed .hero style="padding:7rem 1.5rem 4rem;"}
+::: {.hero-inner}
+[About Voyara]{.eyebrow}
+
+# Travel people, [at your service]{}
+
+::: {.lead}
+We started Voyara because booking a trip — or moving abroad to study — shouldn't mean dealing with five different agents and a pile of paperwork.
+:::
+:::
+:::
+
+::: {.section}
+::: {.lead-center}
+Voyara brings tour planning, visas, ticketing, and study-abroad guidance under one roof. One advisor, one plan, one point of contact — from your first idea to your safe return.
+
+Over the past decade our team has helped thousands of travelers and students reach destinations across more than forty countries, with a near-perfect visa success rate and support that never sleeps.
+:::
+:::
+
+::: {.section style="padding-top:0;"}
+::: {.section-head}
+[What we stand for]{.eyebrow}
+
+## How we work
+:::
+
+::: {.card-grid}
+::: {.v-card}
+::: {.icon}
+🧭
+:::
+### Honest advice
+We recommend what's right for you — not whatever earns the biggest commission.
+:::
+::: {.v-card}
+::: {.icon}
+🔍
+:::
+### Transparent pricing
+Clear, itemized proposals. No surprise fees buried in the fine print.
+:::
+::: {.v-card}
+::: {.icon}
+⏱️
+:::
+### Always reachable
+A real person, available 24/7, in any time zone you happen to be in.
+:::
+::: {.v-card}
+::: {.icon}
+❤️
+:::
+### Genuinely passionate
+We travel ourselves. The recommendations come from real experience.
+:::
+:::
+:::
+
+::: {.full-bleed .band}
+::: {.band-inner}
+::: {.stat}
+[12+]{.num}
+[Years of experience]{.lbl}
+:::
+::: {.stat}
+[40+]{.num}
+[Countries covered]{.lbl}
+:::
+::: {.stat}
+[9k+]{.num}
+[Happy travelers]{.lbl}
+:::
+::: {.stat}
+[98%]{.num}
+[Visa success rate]{.lbl}
+:::
+:::
+:::
+
+::: {.cta-banner}
+## Let's plan something great
+We'd love to hear where you want to go next.
+
+[Get in touch](contact.qmd){.btn-voyara .btn-voyara-primary}
+:::
+
+<script src="assets/js/reveal.js"></script>

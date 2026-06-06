@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Voyara"
+  description: "Travel planning, tours, visas, tickets & study abroad — all under one roof."
+  navbar:
+    background: transparent
+    logo: assets/img/logo.svg
+    title: false
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Services"
+        href: services.qmd
+      - text: "Tours"
+        href: tours.qmd
+      - text: "Study Abroad"
+        href: study.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    background: light
+    left: "© 2026 Voyara Travel & Education Services."
+    center: "Your journey, expertly planned."
+    right:
+      - text: "Contact"
+        href: contact.qmd
+      - text: "Services"
+        href: services.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/css/voyara.scss
+    toc: false
+    page-layout: full
+    css: assets/css/extra.css
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    grid:
+      body-width: 1200px

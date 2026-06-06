@@ -1,0 +1,191 @@
+---
+title: ""
+pagetitle: "Voyara — Travel, Tours, Visas & Study Abroad"
+page-layout: full
+toc: false
+---
+
+::: {.full-bleed .hero}
+::: {.hero-inner}
+[Travel · Tours · Visas · Tickets · Study]{.eyebrow}
+
+# The world, [planned beautifully]{}.
+
+::: {.lead}
+Voyara is your single window for tour planning, visa processing, flight tickets, and study-abroad guidance — handled by people who actually travel.
+:::
+
+::: {.hero-cta}
+[Plan my trip](contact.qmd){.btn-voyara .btn-voyara-primary}
+[Explore services](services.qmd){.btn-voyara .btn-voyara-ghost}
+:::
+:::
+:::
+
+::: {.section}
+::: {.section-head}
+[What we do]{.eyebrow}
+
+## Everything your journey needs
+
+Five core services, one trusted team — so you never juggle five different agencies again.
+:::
+
+::: {.card-grid}
+::: {.v-card}
+::: {.icon}
+🗺️
+:::
+### Tour Planning
+Custom itineraries for solo travelers, families, and groups — from weekend escapes to multi-country adventures.
+:::
+
+::: {.v-card}
+::: {.icon}
+🛂
+:::
+### Visa Assistance
+End-to-end visa processing: document checklists, application filing, appointment booking, and interview prep.
+:::
+
+::: {.v-card}
+::: {.icon}
+✈️
+:::
+### Flight Tickets
+Competitive fares on domestic and international routes, with flexible date options and 24/7 rebooking support.
+:::
+
+::: {.v-card}
+::: {.icon}
+🎓
+:::
+### Study Abroad
+University shortlisting, admissions, student visas, and pre-departure support for studying overseas.
+:::
+
+::: {.v-card}
+::: {.icon}
+🏨
+:::
+### Stays & Transfers
+Vetted hotels, airport transfers, and local experiences bundled into your itinerary.
+:::
+:::
+:::
+
+::: {.full-bleed .band}
+::: {.band-inner}
+::: {.stat}
+[12+]{.num}
+[Years of experience]{.lbl}
+:::
+::: {.stat}
+[40+]{.num}
+[Countries covered]{.lbl}
+:::
+::: {.stat}
+[9k+]{.num}
+[Happy travelers]{.lbl}
+:::
+::: {.stat}
+[98%]{.num}
+[Visa success rate]{.lbl}
+:::
+:::
+:::
+
+::: {.section}
+::: {.section-head}
+[Featured]{.eyebrow}
+
+## Tours people love
+
+A taste of what we put together. Every trip is fully customizable.
+:::
+
+::: {.card-grid}
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#0d6e6e,#0a5454);"}
+[Bestseller]{.tag}
+:::
+::: {.body}
+### Bali Escape
+[7 days · Indonesia]{.meta}
+
+Beaches, temples, and rice terraces with private transfers throughout.
+
+[from \$1,090]{.price}
+:::
+:::
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#e2734a,#c85a33);"}
+[Popular]{.tag}
+:::
+::: {.body}
+### Türkiye Highlights
+[9 days · Istanbul + Cappadocia]{.meta}
+
+Hot-air balloons, bazaars, and Bosphorus cruises in one seamless route.
+
+[from \$1,450]{.price}
+:::
+:::
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#122a2e,#0d6e6e);"}
+[New]{.tag}
+:::
+::: {.body}
+### Swiss Alps Rail
+[6 days · Switzerland]{.meta}
+
+Scenic train journeys through Lucerne, Interlaken, and Zermatt.
+
+[from \$1,980]{.price}
+:::
+:::
+:::
+
+::: {style="text-align:center; margin-top:2.5rem;"}
+[See all tours](tours.qmd){.btn-voyara .btn-voyara-ghost}
+:::
+:::
+
+::: {.section}
+::: {.section-head}
+[How it works]{.eyebrow}
+
+## From idea to boarding pass
+
+:::
+
+::: {.steps}
+::: {.step}
+#### Tell us your plan
+Share your destination, dates, budget, and what kind of trip you want.
+:::
+::: {.step}
+#### Get a tailored proposal
+We build an itinerary with flights, stays, visas, and costs — clearly laid out.
+:::
+::: {.step}
+#### We handle the paperwork
+Visa filing, ticketing, and bookings are all managed by your dedicated advisor.
+:::
+::: {.step}
+#### You travel, stress-free
+Go enjoy it. We stay reachable 24/7 for anything that comes up.
+:::
+:::
+:::
+
+::: {.cta-banner}
+## Ready when you are
+Tell us where you want to go — we'll take care of the rest.
+
+[Start planning](contact.qmd){.btn-voyara .btn-voyara-primary}
+:::
+
+<script src="assets/js/reveal.js"></script>

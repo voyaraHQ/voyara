@@ -1,0 +1,111 @@
+---
+title: ""
+pagetitle: "Tours — Voyara"
+page-layout: full
+toc: false
+---
+
+::: {.full-bleed .hero style="padding:7rem 1.5rem 4rem;"}
+::: {.hero-inner}
+[Curated tours]{.eyebrow}
+
+# Trips worth [taking]{}
+
+::: {.lead}
+Sample packages to spark ideas. Every itinerary is fully customizable — change the dates, add a city, upgrade the hotel.
+:::
+:::
+:::
+
+::: {.section}
+::: {.card-grid}
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#0d6e6e,#0a5454);"}
+[Bestseller]{.tag}
+:::
+::: {.body}
+### Bali Escape
+[7 days · Indonesia]{.meta}
+Beaches, temples, and rice terraces with private transfers and a sunrise volcano trek.
+
+[from \$1,090]{.price}
+:::
+:::
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#e2734a,#c85a33);"}
+[Popular]{.tag}
+:::
+::: {.body}
+### Türkiye Highlights
+[9 days · Istanbul + Cappadocia]{.meta}
+Hot-air balloons, grand bazaars, and a Bosphorus dinner cruise.
+
+[from \$1,450]{.price}
+:::
+:::
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#122a2e,#0d6e6e);"}
+[New]{.tag}
+:::
+::: {.body}
+### Swiss Alps Rail
+[6 days · Switzerland]{.meta}
+Scenic trains through Lucerne, Interlaken, and Zermatt beneath the Matterhorn.
+
+[from \$1,980]{.price}
+:::
+:::
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#d9a441,#c85a33);"}
+[Family]{.tag}
+:::
+::: {.body}
+### Dubai & Desert
+[5 days · UAE]{.meta}
+Skyscrapers, a desert safari, and a day at the world's biggest theme parks.
+
+[from \$980]{.price}
+:::
+:::
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#0a5454,#122a2e);"}
+[Honeymoon]{.tag}
+:::
+::: {.body}
+### Maldives Retreat
+[5 days · Indian Ocean]{.meta}
+Overwater villa, private dinners, and snorkeling in turquoise lagoons.
+
+[from \$2,200]{.price}
+:::
+:::
+
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#e2734a,#d9a441);"}
+[Adventure]{.tag}
+:::
+::: {.body}
+### Thailand Explorer
+[10 days · Bangkok to Phuket]{.meta}
+Street food, island hopping, and ancient temples across the kingdom.
+
+[from \$1,320]{.price}
+:::
+:::
+
+:::
+
+::: {.cta-banner}
+## Want something different?
+Tell us your dream destination and we'll design it around you.
+
+[Build my custom tour](contact.qmd){.btn-voyara .btn-voyara-primary}
+:::
+:::
+
+<script src="assets/js/reveal.js"></script>

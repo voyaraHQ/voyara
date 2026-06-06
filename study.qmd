@@ -1,0 +1,135 @@
+---
+title: ""
+pagetitle: "Study Abroad — Voyara"
+page-layout: full
+toc: false
+---
+
+::: {.full-bleed .hero style="padding:7rem 1.5rem 4rem;"}
+::: {.hero-inner}
+[Study abroad]{.eyebrow}
+
+# Your education, [without borders]{}
+
+::: {.lead}
+From choosing the right university to landing at the airport — we guide students through every step of studying overseas.
+:::
+
+::: {.hero-cta}
+[Book a free consultation](contact.qmd){.btn-voyara .btn-voyara-primary}
+:::
+:::
+:::
+
+::: {.section}
+::: {.section-head}
+[What's included]{.eyebrow}
+
+## We're with you the whole way
+:::
+
+::: {.card-grid}
+::: {.v-card}
+::: {.icon}
+🎯
+:::
+### University Shortlisting
+We match your grades, budget, and goals to the right courses and institutions.
+:::
+::: {.v-card}
+::: {.icon}
+📝
+:::
+### Application & Admissions
+Statement-of-purpose help, document prep, and application filing to multiple universities.
+:::
+::: {.v-card}
+::: {.icon}
+💰
+:::
+### Scholarships & Funding
+Guidance on scholarships, education loans, and proof-of-funds requirements.
+:::
+::: {.v-card}
+::: {.icon}
+🛂
+:::
+### Student Visa
+Full student-visa processing, financial documentation, and interview preparation.
+:::
+::: {.v-card}
+::: {.icon}
+🛫
+:::
+### Pre-Departure
+Flights, accommodation, forex, and an orientation so you arrive ready.
+:::
+::: {.v-card}
+::: {.icon}
+🤝
+:::
+### On-Arrival Support
+Airport pickup and settling-in help in your destination city.
+:::
+:::
+:::
+
+::: {.section style="padding-top:1rem;"}
+::: {.section-head}
+[Popular destinations]{.eyebrow}
+
+## Where students go with us
+:::
+
+::: {.card-grid}
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#0d6e6e,#0a5454);"}
+[UK]{.tag}
+:::
+::: {.body}
+### United Kingdom
+[1–4 year programs]{.meta}
+World-ranked universities and post-study work options.
+:::
+:::
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#e2734a,#c85a33);"}
+[Canada]{.tag}
+:::
+::: {.body}
+### Canada
+[Diploma to Master's]{.meta}
+Affordable tuition and clear pathways to residency.
+:::
+:::
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#122a2e,#0d6e6e);"}
+[Australia]{.tag}
+:::
+::: {.body}
+### Australia
+[Undergrad & postgrad]{.meta}
+Strong job market and a welcoming student culture.
+:::
+:::
+::: {.tour-card}
+::: {.thumb style="background-image:linear-gradient(135deg,#d9a441,#c85a33);"}
+[Europe]{.tag}
+:::
+::: {.body}
+### Germany & Europe
+[Low / no tuition]{.meta}
+Public universities with English-taught programs.
+:::
+:::
+:::
+:::
+
+::: {.cta-banner}
+## Take the first step
+Book a free 30-minute consultation with a study-abroad advisor.
+
+[Reserve my slot](contact.qmd){.btn-voyara .btn-voyara-primary}
+:::
+
+<script src="assets/js/reveal.js"></script>

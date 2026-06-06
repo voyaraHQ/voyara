@@ -1,0 +1,97 @@
+---
+title: ""
+pagetitle: "Services — Voyara"
+page-layout: full
+toc: false
+---
+
+::: {.full-bleed .hero style="padding:7rem 1.5rem 4rem;"}
+::: {.hero-inner}
+[Our services]{.eyebrow}
+
+# One team for the [whole journey]{}
+
+::: {.lead}
+Whether you're planning a holiday, applying for a visa, or moving abroad to study — here's exactly how we help.
+:::
+:::
+:::
+
+::: {.section}
+
+::: {.card-grid}
+::: {.v-card}
+::: {.icon}
+🗺️
+:::
+### Tour Planning
+Custom day-by-day itineraries, group departures, honeymoon packages, and corporate retreats. We match destinations to your pace, budget, and interests.
+:::
+
+::: {.v-card}
+::: {.icon}
+🛂
+:::
+### Visa Processing
+Tourist, business, student, and work visas. We provide document checklists, fill and file applications, book biometrics/appointments, and coach you for interviews.
+:::
+
+::: {.v-card}
+::: {.icon}
+✈️
+:::
+### Air Ticketing
+Best-fare search across airlines, multi-city routing, group bookings, and date-change support. We rebook fast when plans shift.
+:::
+
+::: {.v-card}
+::: {.icon}
+🎓
+:::
+### Study Abroad
+University and course selection, application and admission support, scholarship guidance, student-visa filing, and pre-departure orientation.
+:::
+
+::: {.v-card}
+::: {.icon}
+🏨
+:::
+### Hotels & Stays
+Hand-picked accommodation across budgets, from boutique guesthouses to luxury resorts, with best-rate guarantees where available.
+:::
+
+::: {.v-card}
+::: {.icon}
+🚐
+:::
+### Transfers & Local Experiences
+Airport pickups, private drivers, day tours, and curated local experiences added right into your itinerary.
+:::
+
+::: {.v-card}
+::: {.icon}
+🛡️
+:::
+### Travel Insurance
+Medical and trip-cancellation cover arranged alongside your booking, including Schengen-compliant policies.
+:::
+
+::: {.v-card}
+::: {.icon}
+💬
+:::
+### 24/7 Support
+A dedicated advisor and round-the-clock assistance while you're on the road, in any time zone.
+:::
+:::
+
+:::
+
+::: {.cta-banner}
+## Not sure which you need?
+Send us a quick message — we'll tell you exactly what applies to your situation.
+
+[Talk to an advisor](contact.qmd){.btn-voyara .btn-voyara-primary}
+:::
+
+<script src="assets/js/reveal.js"></script>

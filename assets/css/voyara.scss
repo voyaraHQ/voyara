@@ -1,0 +1,73 @@
+/*-- scss:defaults --*/
+
+// Voyara palette — deep teal, warm terracotta accent, sand neutrals
+$voyara-ink:        #122a2e;   // deep teal-black
+$voyara-teal:       #0d6e6e;   // primary teal
+$voyara-teal-dk:    #0a5454;
+$voyara-terra:      #e2734a;   // terracotta accent
+$voyara-terra-dk:   #c85a33;
+$voyara-sand:       #f6efe6;   // warm paper
+$voyara-sand-2:     #efe5d6;
+$voyara-cream:      #fbf7f1;
+$voyara-gold:       #d9a441;
+
+$primary:    $voyara-teal;
+$body-bg:    $voyara-cream;
+$body-color: $voyara-ink;
+$link-color: $voyara-teal-dk;
+
+$font-family-sans-serif: "Outfit", -apple-system, BlinkMacSystemFont, sans-serif;
+$headings-font-family:   "Fraunces", Georgia, serif;
+$headings-font-weight:   600;
+
+$navbar-bg: transparent;
+$navbar-fg: $voyara-ink;
+
+$border-radius:    14px;
+$border-radius-lg: 22px;
+
+/*-- scss:rules --*/
+
+:root {
+  --voyara-ink: #{$voyara-ink};
+  --voyara-teal: #{$voyara-teal};
+  --voyara-teal-dk: #{$voyara-teal-dk};
+  --voyara-terra: #{$voyara-terra};
+  --voyara-terra-dk: #{$voyara-terra-dk};
+  --voyara-sand: #{$voyara-sand};
+  --voyara-sand-2: #{$voyara-sand-2};
+  --voyara-cream: #{$voyara-cream};
+  --voyara-gold: #{$voyara-gold};
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Fraunces", Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+// Navbar — floating glass effect
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(251, 247, 241, 0.72) !important;
+  border-bottom: 1px solid rgba(18, 42, 46, 0.07);
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+.navbar .nav-link:hover { color: var(--voyara-terra-dk) !important; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+// Footer
+.nav-footer {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9rem;
+}
