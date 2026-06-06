@@ -29,9 +29,9 @@ format:
               display: flex;
               justify-content: space-between;
               align-items: flex-start;
-              margin-bottom: 4rem;
+              margin-bottom: 2rem;
               border-bottom: 2px solid var(--voyara-sand);
-              padding-bottom: 2rem;
+              padding-bottom: 1.5rem;
             }
             .letterhead-logo {
               height: 42px;
@@ -65,7 +65,7 @@ format:
               display: grid;
               grid-template-columns: 1fr 1fr;
               gap: 3rem;
-              margin-bottom: 4rem;
+              margin-bottom: 2rem;
             }
             .address-label {
               font-family: "Outfit", sans-serif;
@@ -142,8 +142,8 @@ format:
             .stamp-date { font-size: 0.6rem; margin-top: 0.4rem; font-style: italic; }
 
             .bill-footer {
-              margin-top: 6rem;
-              padding-top: 2rem;
+              margin-top: 3rem;
+              padding-top: 1.5rem;
               border-top: 1px solid var(--voyara-sand);
               font-size: 0.85rem;
               color: rgba(18,42,46,0.6);
@@ -166,10 +166,11 @@ format:
                 box-shadow: none !important;
                 border: none !important;
                 margin: 0 !important;
-                padding: 2cm !important;
+                padding: 1cm !important;
                 width: 100% !important;
                 max-width: none !important;
                 border-radius: 0 !important;
+                font-size: 0.95rem;
               }
               .btn-print {
                 display: none !important;
