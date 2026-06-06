@@ -178,126 +178,118 @@ params:
 # Triggers Knitr engine
 ```
 
-::: {.bill-container}
+::::::::::::::::::::::::::::: bill-container
+::::::::::: bill-header
+:::: bill-brand
+<img src="assets/img/logo.svg" class="letterhead-logo"/>
 
-::: {.bill-header}
-::: {.bill-brand}
-<img src="assets/img/logo.svg" class="letterhead-logo">
-<div class="address-text" style="font-weight: 500; font-size: 0.9rem;">
-**Voyara Travel & Education Services**<br>
-Ringstrasse, 8107 Switzerland<br>
-voyarahq@gmail.com<br>
-+1 (909) 906-0020 (USA)<br>
-+91 80590 65971 (IND)<br>
-+41 78 202 98 86 (CHE)<br>
-+256 708 599319 (UGA)
-</div>
+::: {.address-text style="font-weight: 500; font-size: 0.9rem;"}
+**Voyara Travel & Education Services**<br> Ringstrasse, 8107 Switzerland<br> voyarahq\@gmail.com<br> +1 (909) 906-0020 (USA)<br> +91 80590 65971 (IND)<br> +41 78 202 98 86 (CHE)<br> +256 708 599319 (UGA)
 :::
+::::
 
-::: {.bill-meta}
+:::::::: bill-meta
 # INVOICE
 
-::: {.meta-grid}
-::: {.meta-item}
+::::::: meta-grid
+::: meta-item
 [Invoice No:]{.meta-label} `r params$invoice_no`
 :::
-::: {.meta-item}
+
+::: meta-item
 [Date:]{.meta-label} `r params$date`
 :::
-::: {.meta-item}
+
+::: meta-item
 [Currency:]{.meta-label} `r params$currency`
 :::
-::: {.meta-item}
+
+::: meta-item
 [Payment:]{.meta-label} `r params$payment_method`
 :::
-:::
-:::
-:::
+:::::::
+::::::::
+:::::::::::
 
-::: {.address-box}
-::: {.bill-to}
+::::::: address-box
+:::: bill-to
 [Billed to]{.address-label}
-<div class="address-text">
-**`r params$billed_to_name`**<br>
-`r params$billed_to_address`
-</div>
-:::
 
-::: {.payment-to}
+::: address-text
+**`r params$billed_to_name`**<br> `r params$billed_to_address`
+:::
+::::
+
+:::: payment-to
 [Payment info]{.address-label}
-<div class="address-text">
-**Payable to Ms. Divya Kundra**<br>
-Method: `r params$payment_method`<br>
-*Payment received in full.*
-</div>
-:::
-:::
 
-<table class="bill-table">
-<thead>
-<tr>
-<th>Description</th>
-<th style="text-align: center;">Qty</th>
-<th style="text-align: right;">Price</th>
-<th style="text-align: right;">Total</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Flight ticket of Mr. Vishu (Rounded)</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: right;">580.00</td>
-<td style="text-align: right;">580.00</td>
-</tr>
-<tr>
-<td>Flight ticket of Mrs. Amarjit Kaur (Rounded)</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: right;">580.00</td>
-<td style="text-align: right;">580.00</td>
-</tr>
-<tr>
-<td>72 hours Dummy ticket for Mrs. Amarjit Kaur</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-</tr>
-<tr>
-<td>Commission</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-</tr>
-</tbody>
-</table>
+::: address-text
+**Payable to Ms. Divya Kundra**<br> Method: `r params$payment_method`<br> *Payment received in full.*
+:::
+::::
+:::::::
 
-::: {.total-section}
++----------------------------------------------+-----+--------+--------+
+| Description                                  | Qty | Price  | Total  |
++==============================================+:===:+=======:+=======:+
+| Flight ticket of Mr. Vishu (Rounded)         | 1   | 580.00 | 580.00 |
++----------------------------------------------+-----+--------+--------+
+| Flight ticket of Mrs. Amarjit Kaur (Rounded) | 1   | 580.00 | 580.00 |
++----------------------------------------------+-----+--------+--------+
+| 72 hours Dummy ticket for Mrs. Amarjit Kaur  | 1   | 0.00   | 0.00   |
++----------------------------------------------+-----+--------+--------+
+| Commission                                   | \-  | 0.00   | 0.00   |
++----------------------------------------------+-----+--------+--------+
+
+:::::: total-section
 [Subtotal]{.total-label}
-<div class="total-value">`r params$currency` 1,160.00</div>
+
+::: total-value
+`r params$currency` 1,160.00
+:::
+
 [VAT (0%)]{.total-label}
-<div class="total-value">0.00</div>
+
+::: total-value
+0.00
+:::
+
 [Amount Due]{.total-label}
-<div class="total-value" style="color: var(--voyara-terra);">`r params$currency` 1,160.00</div>
+
+::: {.total-value style="color: var(--voyara-terra);"}
+`r params$currency` 1,160.00
+:::
+::::::
+
+::::: bill-footer
+::: {}
+**Terms & Conditions**<br> Payment to be made in cash directly to Ms. Divya Kundra. All tickets are subject to airline terms and conditions. Thank you for booking with Voyara.
 :::
 
-::: {.bill-footer}
-<div>
-**Terms & Conditions**<br>
-Payment to be made in cash directly to Ms. Divya Kundra. All tickets are subject to airline terms and conditions. Thank you for booking with Voyara.
-</div>
-<div style="text-align: right;">
-**Questions?**<br>
-voyarahq@gmail.com
-</div>
+::: {style="text-align: right;"}
+**Questions?**<br> voyarahq\@gmail.com
+:::
+:::::
+
+::::::: electronic-stamp
+:::::: stamp-inner
+::: stamp-org
+VOYARA
 :::
 
-<div class="electronic-stamp">
-<div class="stamp-inner">
-<div class="stamp-org">VOYARA</div>
-<div class="stamp-status">APPROVED &<br>RELEASED</div>
-<div class="stamp-date">`r format(Sys.Date(), "%d %b %Y")`</div>
-</div>
-</div>
-
+::: stamp-status
+APPROVED &<br>RELEASED
 :::
 
-<button class="btn-voyara btn-voyara-primary btn-print" onclick="window.print();">Print / Save as PDF</button>
+::: stamp-date
+`r format(Sys.Date(), "%d %b %Y")`
+:::
+::::::
+:::::::
+:::::::::::::::::::::::::::::
+
+<button class="btn-voyara btn-voyara-primary btn-print" onclick="window.print();">
+
+Print / Save as PDF
+
+</button>
