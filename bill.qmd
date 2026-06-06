@@ -185,7 +185,7 @@ params:
 <img src="assets/img/logo.svg" class="letterhead-logo"/>
 
 ::: {.address-text style="font-weight: 500; font-size: 0.9rem;"}
-**Voyara Travel & Education Services**<br> Ringstrasse, 8107 Switzerland<br> voyarahq\@gmail.com<br> https://voyarahq.github.io/voyara/<br> +1 (909) 906-0020 (USA)<br> +91 80590 65971 (IND)<br> +41 78 202 98 86 (CHE)<br> +256 708 599319 (UGA)
+**Voyara Travel & Education Services**<br> Ringstrasse, 8107 Switzerland<br> voyarahq\@gmail.com<br> [voyarahq.github.io/voyara](https://voyarahq.github.io/voyara/)<br> +1 (909) 906-0020 (USA)<br> +91 80590 65971 (IND)<br> +41 78 202 98 86 (CHE)<br> +256 708 599319 (UGA)
 :::
 ::::
 
