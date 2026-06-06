@@ -167,6 +167,11 @@ params:
   payment_method: "CASH"
 ---
 
+```{r}
+#| include: false
+# This block triggers the Knitr engine for dynamic fields
+```
+
 ::::::::::::::::::::::::: bill-container
 ::::::: bill-header
 :::: bill-brand
