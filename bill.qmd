@@ -254,8 +254,8 @@ params:
 
 | Description                                  | Qty |  Price |  Total |
 |----------------------------------------------|:---:|-------:|-------:|
-| Flight ticket of Mr. Vishu (Rounded)         |  1  | 580.00 | 580.00 |
-| Flight ticket of Mrs. Amarjit Kaur (Rounded) |  1  | 580.00 | 580.00 |
+| Flight ticket of Mr. Vishu (Rounded)         |  1  | 579.21 | 580.00 |
+| Flight ticket of Mrs. Amarjit Kaur (Rounded) |  1  | 579.21 | 580.00 |
 | 72 hours Dummy ticket for Mrs. Amarjit Kaur  |  1  |   0.00 |   0.00 |
 | Commission                                   | \-  |   0.00 |   0.00 |
 
