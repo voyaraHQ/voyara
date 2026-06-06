@@ -1,0 +1,287 @@
+---
+title: ""
+pagetitle: "Invoice — Voyara"
+format:
+  html:
+    toc: false
+    page-layout: full
+    css: assets/css/extra.css
+    theme: [cosmo, assets/css/voyara.scss]
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+          <style>
+            body { background: #fbf7f1; }
+            .bill-container {
+              max-width: 850px;
+              margin: 3rem auto;
+              background: #fff;
+              padding: 4rem;
+              border-radius: 24px;
+              box-shadow: 0 40px 100px -30px rgba(18,42,46,0.12);
+              position: relative;
+              overflow: hidden;
+              border: 1px solid rgba(18,42,46,0.06);
+            }
+            .bill-header {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+              margin-bottom: 4rem;
+              border-bottom: 2px solid var(--voyara-sand);
+              padding-bottom: 2rem;
+            }
+            .letterhead-logo {
+              height: 42px;
+              margin-bottom: 1.5rem;
+            }
+            .bill-meta {
+              text-align: right;
+            }
+            .bill-meta h1 {
+              color: var(--voyara-teal);
+              font-size: 2.8rem;
+              margin: 0 0 0.5rem;
+            }
+            .meta-grid {
+              display: grid;
+              grid-template-columns: auto auto;
+              gap: 0.5rem 1.5rem;
+              justify-content: end;
+              font-family: "Outfit", sans-serif;
+              font-size: 0.95rem;
+            }
+            .meta-label { font-weight: 600; color: var(--voyara-terra-dk); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; }
+            .address-box {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 3rem;
+              margin-bottom: 4rem;
+            }
+            .address-label {
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+              font-size: 0.75rem;
+              color: var(--voyara-terra-dk);
+              margin-bottom: 0.8rem;
+            }
+            .address-text {
+              font-size: 1.05rem;
+              line-height: 1.5;
+              color: var(--voyara-ink);
+            }
+            .bill-table {
+              width: 100%;
+              border-collapse: collapse;
+              margin-bottom: 3rem;
+            }
+            .bill-table th {
+              background: var(--voyara-sand);
+              padding: 1rem;
+              text-align: left;
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 0.05em;
+              font-size: 0.85rem;
+            }
+            .bill-table td {
+              padding: 1.2rem 1rem;
+              border-bottom: 1px solid var(--voyara-sand);
+            }
+            .bill-table tr:last-child td { border-bottom: none; }
+            .total-section {
+              margin-left: auto;
+              width: 300px;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 1rem;
+              align-items: center;
+              padding-top: 1rem;
+              border-top: 2px solid var(--voyara-ink);
+            }
+            .total-label { font-family: "Outfit", sans-serif; font-weight: 600; }
+            .total-value { font-family: "Fraunces", serif; font-size: 1.4rem; font-weight: 700; color: var(--voyara-teal); text-align: right; }
+            
+            .electronic-stamp {
+              position: absolute;
+              bottom: 4rem;
+              right: 4rem;
+              width: 160px;
+              height: 160px;
+              border: 3px double var(--voyara-terra);
+              border-radius: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              transform: rotate(-15deg);
+              opacity: 0.8;
+              user-select: none;
+              background: rgba(226, 115, 74, 0.03);
+            }
+            .stamp-inner {
+              text-align: center;
+              color: var(--voyara-terra-dk);
+              font-family: "Outfit", sans-serif;
+              line-height: 1.2;
+            }
+            .stamp-org { font-weight: 800; font-size: 0.9rem; margin-bottom: 0.2rem; }
+            .stamp-status { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; }
+            .stamp-date { font-size: 0.6rem; margin-top: 0.4rem; font-style: italic; }
+
+            .bill-footer {
+              margin-top: 6rem;
+              padding-top: 2rem;
+              border-top: 1px solid var(--voyara-sand);
+              font-size: 0.85rem;
+              color: rgba(18,42,46,0.6);
+              display: grid;
+              grid-template-columns: 2fr 1fr;
+              gap: 2rem;
+            }
+            
+            @media print {
+              body { background: #fff; }
+              .bill-container { box-shadow: none; margin: 0; border: none; padding: 0; }
+              .btn-print { display: none; }
+            }
+            
+            .btn-print {
+              position: fixed;
+              bottom: 2rem;
+              right: 2rem;
+              z-index: 100;
+            }
+          </style>
+params:
+  invoice_no: "INV-2026-084"
+  date: "June 12, 2026"
+  billed_to_name: "Alexander Sterling"
+  billed_to_address: "42 Belvedere Crescent<br>Zürich, 8001 Switzerland"
+  currency: "CHF"
+  payment_method: "Bank Transfer"
+  items:
+    - desc: "Custom Swiss Alps Rail Itinerary"
+      qty: 1
+      price: 450.00
+    - desc: "Private Driver - Lucerne to Interlaken"
+      qty: 1
+      price: 320.00
+    - desc: "First Class Rail Passes (Swiss Travel Pass)"
+      qty: 2
+      price: 560.00
+---
+
+::: {.bill-container}
+
+::: {.bill-header}
+::: {.bill-brand}
+<img src="assets/img/logo.svg" class="letterhead-logo">
+<div class="address-text" style="font-weight: 500;">
+**Voyara Travel & Education Services**<br>
+Ringstrasse<br>
+8107 Switzerland<br>
+hello@voyara.example
+</div>
+:::
+
+::: {.bill-meta}
+# INVOICE
+
+::: {.meta-grid}
+[Invoice No:]{.meta-label} `r params$invoice_no`
+[Date:]{.meta-label} `r params$date`
+[Currency:]{.meta-label} `r params$currency`
+[Payment:]{.meta-label} `r params$payment_method`
+:::
+:::
+:::
+
+::: {.address-box}
+::: {.bill-to}
+[Billed to]{.address-label}
+<div class="address-text">
+**`r params$billed_to_name`**<br>
+`r params$billed_to_address`
+</div>
+:::
+
+::: {.payment-to}
+[Payment info]{.address-label}
+<div class="address-text">
+**Voyara AG**<br>
+UBS Switzerland AG<br>
+IBAN: CH76 0000 0000 0000 0<br>
+BIC/SWIFT: UBSWCHZH
+</div>
+:::
+:::
+
+<table class="bill-table">
+<thead>
+<tr>
+<th>Description</th>
+<th style="text-align: center;">Qty</th>
+<th style="text-align: right;">Price</th>
+<th style="text-align: right;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Custom Swiss Alps Rail Itinerary</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;">450.00</td>
+<td style="text-align: right;">450.00</td>
+</tr>
+<tr>
+<td>Private Driver - Lucerne to Interlaken</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;">320.00</td>
+<td style="text-align: right;">320.00</td>
+</tr>
+<tr>
+<td>First Class Rail Passes (Swiss Travel Pass)</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;">560.00</td>
+<td style="text-align: right;">1,120.00</td>
+</tr>
+</tbody>
+</table>
+
+::: {.total-section}
+[Subtotal]{.total-label}
+<div class="total-value">`r params$currency` 1,890.00</div>
+[VAT (0%)]{.total-label}
+<div class="total-value">0.00</div>
+[Amount Due]{.total-label}
+<div class="total-value" style="color: var(--voyara-terra);">`r params$currency` 1,890.00</div>
+:::
+
+::: {.bill-footer}
+<div>
+**Terms & Conditions**<br>
+Please process payment within 14 days of receipt. All bookings are subject to our standard service terms. Thank you for choosing Voyara.
+</div>
+<div style="text-align: right;">
+**Questions?**<br>
++41 00 000 00 00<br>
+hello@voyara.example
+</div>
+:::
+
+<div class="electronic-stamp">
+<div class="stamp-inner">
+<div class="stamp-org">VOYARA</div>
+<div class="stamp-status">APPROVED &<br>RELEASED</div>
+<div class="stamp-date">`r format(Sys.Date(), "%d %b %Y")`</div>
+</div>
+</div>
+
+:::
+
+<button class="btn-voyara btn-voyara-primary btn-print" onclick="window.print();">Print / Save as PDF</button>
