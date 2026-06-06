@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "tours.html",
+    "href": "tours.html",
+    "title": "Trips worth taking",
+    "section": "",
+    "text": "Curated tours\n\n\n\nSample packages to spark ideas. Every itinerary is fully customizable — change the dates, add a city, upgrade the hotel."
+  },
+  {
+    "objectID": "tours.html#want-something-different",
+    "href": "tours.html#want-something-different",
+    "title": "Trips worth taking",
+    "section": "Want something different?",
+    "text": "Want something different?\nTell us your dream destination and we’ll design it around you.\nBuild my custom tour"
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "One team for the whole journey",
+    "section": "",
+    "text": "Our services\n\n\n\nWhether you’re planning a holiday, applying for a visa, or moving abroad to study — here’s exactly how we help."
+  },
+  {
+    "objectID": "services.html#not-sure-which-you-need",
+    "href": "services.html#not-sure-which-you-need",
+    "title": "One team for the whole journey",
+    "section": "Not sure which you need?",
+    "text": "Not sure which you need?\nSend us a quick message — we’ll tell you exactly what applies to your situation.\nTalk to an advisor"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Let’s plan your next move",
+    "section": "",
+    "text": "Get in touch\n\nLet’s plan your next move\n\nTell us a little about what you need. We’ll get back to you within one business day.\n\n\n\n\n\n\n\n\n&lt;label for=\"name\"&gt;Full name&lt;/label&gt;\n&lt;input id=\"name\" type=\"text\" placeholder=\"Your name\"&gt;\n\n\n&lt;label for=\"email\"&gt;Email&lt;/label&gt;\n&lt;input id=\"email\" type=\"email\" placeholder=\"you@email.com\"&gt;\n\n\n\n\n&lt;label for=\"phone\"&gt;Phone&lt;/label&gt;\n&lt;input id=\"phone\" type=\"tel\" placeholder=\"+41 ...\"&gt;\n\n\n&lt;label for=\"service\"&gt;I'm interested in&lt;/label&gt;\n&lt;select id=\"service\"&gt;\n  &lt;option&gt;Tour planning&lt;/option&gt;\n  &lt;option&gt;Visa assistance&lt;/option&gt;\n  &lt;option&gt;Flight tickets&lt;/option&gt;\n  &lt;option&gt;Study abroad&lt;/option&gt;\n  &lt;option&gt;Something else&lt;/option&gt;\n&lt;/select&gt;\n\n\n\nTell us more\n\n\n\nSend inquiry\n\n\nThanks! This is a demo form — connect it to your email service or a tool like Formspree to receive messages.\n\n\n\nPrefer to reach us directly?\nEmail hello@voyara.example · Phone +41 00 000 00 00 · Hours Mon–Sat, 9am–7pm"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Travel people, at your service",
@@ -19,69 +54,6 @@
     "title": "Travel people, at your service",
     "section": "Let’s plan something great",
     "text": "Let’s plan something great\nWe’d love to hear where you want to go next.\nGet in touch"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Let’s plan your next move",
-    "section": "",
-    "text": "Get in touch\n\nLet’s plan your next move\n\nTell us a little about what you need. We’ll get back to you within one business day.\n\n\n\n\n\n\n\n\n&lt;label for=\"name\"&gt;Full name&lt;/label&gt;\n&lt;input id=\"name\" type=\"text\" placeholder=\"Your name\"&gt;\n\n\n&lt;label for=\"email\"&gt;Email&lt;/label&gt;\n&lt;input id=\"email\" type=\"email\" placeholder=\"you@email.com\"&gt;\n\n\n\n\n&lt;label for=\"phone\"&gt;Phone&lt;/label&gt;\n&lt;input id=\"phone\" type=\"tel\" placeholder=\"+41 ...\"&gt;\n\n\n&lt;label for=\"service\"&gt;I'm interested in&lt;/label&gt;\n&lt;select id=\"service\"&gt;\n  &lt;option&gt;Tour planning&lt;/option&gt;\n  &lt;option&gt;Visa assistance&lt;/option&gt;\n  &lt;option&gt;Flight tickets&lt;/option&gt;\n  &lt;option&gt;Study abroad&lt;/option&gt;\n  &lt;option&gt;Something else&lt;/option&gt;\n&lt;/select&gt;\n\n\n\nTell us more\n\n\n\nSend inquiry\n\n\nThanks! This is a demo form — connect it to your email service or a tool like Formspree to receive messages.\n\n\n\nPrefer to reach us directly?\nEmail hello@voyara.example · Phone +41 00 000 00 00 · Hours Mon–Sat, 9am–7pm"
-  },
-  {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "One team for the whole journey",
-    "section": "",
-    "text": "Our services\n\n\n\nWhether you’re planning a holiday, applying for a visa, or moving abroad to study — here’s exactly how we help."
-  },
-  {
-    "objectID": "services.html#not-sure-which-you-need",
-    "href": "services.html#not-sure-which-you-need",
-    "title": "One team for the whole journey",
-    "section": "Not sure which you need?",
-    "text": "Not sure which you need?\nSend us a quick message — we’ll tell you exactly what applies to your situation.\nTalk to an advisor"
-  },
-  {
-    "objectID": "tours.html",
-    "href": "tours.html",
-    "title": "Trips worth taking",
-    "section": "",
-    "text": "Curated tours\n\n\n\nSample packages to spark ideas. Every itinerary is fully customizable — change the dates, add a city, upgrade the hotel."
-  },
-  {
-    "objectID": "tours.html#want-something-different",
-    "href": "tours.html#want-something-different",
-    "title": "Trips worth taking",
-    "section": "Want something different?",
-    "text": "Want something different?\nTell us your dream destination and we’ll design it around you.\nBuild my custom tour"
-  },
-  {
-    "objectID": "study.html",
-    "href": "study.html",
-    "title": "Your education, without borders",
-    "section": "",
-    "text": "Study abroad\n\n\n\nFrom choosing the right university to landing at the airport — we guide students through every step of studying overseas.\n\n\nBook a free consultation"
-  },
-  {
-    "objectID": "study.html#were-with-you-the-whole-way",
-    "href": "study.html#were-with-you-the-whole-way",
-    "title": "Your education, without borders",
-    "section": "We’re with you the whole way",
-    "text": "We’re with you the whole way"
-  },
-  {
-    "objectID": "study.html#where-students-go-with-us",
-    "href": "study.html#where-students-go-with-us",
-    "title": "Your education, without borders",
-    "section": "Where students go with us",
-    "text": "Where students go with us"
-  },
-  {
-    "objectID": "study.html#take-the-first-step",
-    "href": "study.html#take-the-first-step",
-    "title": "Your education, without borders",
-    "section": "Take the first step",
-    "text": "Take the first step\nBook a free 30-minute consultation with a study-abroad advisor.\nReserve my slot"
   },
   {
     "objectID": "index.html",
@@ -117,5 +89,33 @@
     "title": "The world, planned beautifully.",
     "section": "Ready when you are",
     "text": "Ready when you are\nTell us where you want to go — we’ll take care of the rest.\nStart planning"
+  },
+  {
+    "objectID": "study.html",
+    "href": "study.html",
+    "title": "Your education, without borders",
+    "section": "",
+    "text": "Study abroad\n\n\n\nFrom choosing the right university to landing at the airport — we guide students through every step of studying overseas.\n\n\nBook a free consultation"
+  },
+  {
+    "objectID": "study.html#were-with-you-the-whole-way",
+    "href": "study.html#were-with-you-the-whole-way",
+    "title": "Your education, without borders",
+    "section": "We’re with you the whole way",
+    "text": "We’re with you the whole way"
+  },
+  {
+    "objectID": "study.html#where-students-go-with-us",
+    "href": "study.html#where-students-go-with-us",
+    "title": "Your education, without borders",
+    "section": "Where students go with us",
+    "text": "Where students go with us"
+  },
+  {
+    "objectID": "study.html#take-the-first-step",
+    "href": "study.html#take-the-first-step",
+    "title": "Your education, without borders",
+    "section": "Take the first step",
+    "text": "Take the first step\nBook a free 30-minute consultation with a study-abroad advisor.\nReserve my slot"
   }
 ]
