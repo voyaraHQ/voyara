@@ -52,12 +52,13 @@ format:
               align-items: flex-end;
               font-family: "Outfit", sans-serif;
               font-size: 0.95rem;
+              white-space: nowrap;
             }
             .meta-item {
-              display: grid;
-              grid-template-columns: 120px auto;
+              display: flex;
+              justify-content: flex-end;
+              gap: 0.8rem;
               text-align: right;
-              gap: 1rem;
             }
             .meta-label { font-weight: 600; color: var(--voyara-terra-dk); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; align-self: center; }
             .address-box {
