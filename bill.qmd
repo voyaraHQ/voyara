@@ -185,7 +185,7 @@ params:
 <img src="assets/img/logo.svg" class="letterhead-logo"/>
 
 ::: {.address-text style="font-weight: 500; font-size: 0.9rem;"}
-**Voyara Travel & Education Services**<br> Ringstrasse, 8107 Switzerland<br> voyarahq\@gmail.com<br> +1 (909) 906-0020 (USA)<br> +91 80590 65971 (IND)<br> +41 78 202 98 86 (CHE)<br> +256 708 599319 (UGA)
+**Voyara Travel & Education Services**<br> Ringstrasse, 8107 Switzerland<br> voyarahq\@gmail.com<br> https://voyarahq.github.io/voyara/<br> +1 (909) 906-0020 (USA)<br> +91 80590 65971 (IND)<br> +41 78 202 98 86 (CHE)<br> +256 708 599319 (UGA)
 :::
 ::::
 
@@ -230,17 +230,12 @@ params:
 ::::
 :::::::
 
-+----------------------------------------------+-----+--------+--------+
-| Description                                  | Qty | Price  | Total  |
-+==============================================+:===:+=======:+=======:+
-| Flight ticket of Mr. Vishu (Rounded)         | 1   | 580.00 | 580.00 |
-+----------------------------------------------+-----+--------+--------+
-| Flight ticket of Mrs. Amarjit Kaur (Rounded) | 1   | 580.00 | 580.00 |
-+----------------------------------------------+-----+--------+--------+
-| 72 hours Dummy ticket for Mrs. Amarjit Kaur  | 1   | 0.00   | 0.00   |
-+----------------------------------------------+-----+--------+--------+
-| Commission                                   | \-  | 0.00   | 0.00   |
-+----------------------------------------------+-----+--------+--------+
+| Description                                  | Qty |  Price |  Total |
+|----------------------------------------------|:---:|-------:|-------:|
+| Flight ticket of Mr. Vishu (Rounded)         |  1  | 580.00 | 580.00 |
+| Flight ticket of Mrs. Amarjit Kaur (Rounded) |  1  | 580.00 | 580.00 |
+| 72 hours Dummy ticket for Mrs. Amarjit Kaur  |  1  |   0.00 |   0.00 |
+| Commission                                   | \-  |   0.00 |   0.00 |
 
 :::::: total-section
 [Subtotal]{.total-label}
