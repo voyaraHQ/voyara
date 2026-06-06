@@ -159,22 +159,12 @@ format:
             }
           </style>
 params:
-  invoice_no: "INV-2026-084"
-  date: "June 12, 2026"
-  billed_to_name: "Alexander Sterling"
-  billed_to_address: "42 Belvedere Crescent<br>Zürich, 8001 Switzerland"
-  currency: "CHF"
-  payment_method: "Bank Transfer"
-  items:
-    - desc: "Custom Swiss Alps Rail Itinerary"
-      qty: 1
-      price: 450.00
-    - desc: "Private Driver - Lucerne to Interlaken"
-      qty: 1
-      price: 320.00
-    - desc: "First Class Rail Passes (Swiss Travel Pass)"
-      qty: 2
-      price: 560.00
+  invoice_no: "INV-2026-092"
+  date: "June 06, 2026"
+  billed_to_name: "Mr. Vishu"
+  billed_to_address: "Client Destination Address"
+  currency: "USD"
+  payment_method: "Cash"
 ---
 
 ::: {.bill-container}
@@ -186,7 +176,7 @@ params:
 **Voyara Travel & Education Services**<br>
 Ringstrasse<br>
 8107 Switzerland<br>
-hello@voyara.example
+voyarahq@gmail.com
 </div>
 :::
 
@@ -214,10 +204,9 @@ hello@voyara.example
 ::: {.payment-to}
 [Payment info]{.address-label}
 <div class="address-text">
-**Voyara AG**<br>
-UBS Switzerland AG<br>
-IBAN: CH76 0000 0000 0000 0<br>
-BIC/SWIFT: UBSWCHZH
+**Payable to Ms. Divya Kundra**<br>
+Method: `r params$payment_method`<br>
+*Payment received in full.*
 </div>
 :::
 :::
@@ -233,44 +222,49 @@ BIC/SWIFT: UBSWCHZH
 </thead>
 <tbody>
 <tr>
-<td>Custom Swiss Alps Rail Itinerary</td>
+<td>Flight ticket of Mr. Vishu (Rounded)</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: right;">450.00</td>
-<td style="text-align: right;">450.00</td>
+<td style="text-align: right;">580.00</td>
+<td style="text-align: right;">580.00</td>
 </tr>
 <tr>
-<td>Private Driver - Lucerne to Interlaken</td>
+<td>Flight ticket of Mrs. Amarjit Kaur (Rounded)</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: right;">320.00</td>
-<td style="text-align: right;">320.00</td>
+<td style="text-align: right;">580.00</td>
+<td style="text-align: right;">580.00</td>
 </tr>
 <tr>
-<td>First Class Rail Passes (Swiss Travel Pass)</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: right;">560.00</td>
-<td style="text-align: right;">1,120.00</td>
+<td>72 hours Dummy ticket for Mrs. Amarjit Kaur</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr>
+<td>Commission</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
 </tr>
 </tbody>
 </table>
 
 ::: {.total-section}
 [Subtotal]{.total-label}
-<div class="total-value">`r params$currency` 1,890.00</div>
+<div class="total-value">`r params$currency` 1,160.00</div>
 [VAT (0%)]{.total-label}
 <div class="total-value">0.00</div>
 [Amount Due]{.total-label}
-<div class="total-value" style="color: var(--voyara-terra);">`r params$currency` 1,890.00</div>
+<div class="total-value" style="color: var(--voyara-terra);">`r params$currency` 1,160.00</div>
 :::
 
 ::: {.bill-footer}
 <div>
 **Terms & Conditions**<br>
-Please process payment within 14 days of receipt. All bookings are subject to our standard service terms. Thank you for choosing Voyara.
+Payment to be made in cash directly to Ms. Divya Kundra. All tickets are subject to airline terms and conditions. Thank you for booking with Voyara.
 </div>
 <div style="text-align: right;">
 **Questions?**<br>
-+41 00 000 00 00<br>
-hello@voyara.example
+voyarahq@gmail.com
 </div>
 :::
 
