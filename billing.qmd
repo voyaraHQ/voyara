@@ -1,0 +1,102 @@
+---
+title: "INVOICE"
+author: "Voyara Travel & Education Services"
+date: last-modified
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    geometry:
+      - margin=1in
+    header-includes: |
+      \usepackage{fancyhdr}
+      \pagestyle{fancy}
+      \fancyhf{}
+      \renewcommand{\headrulewidth}{0pt}
+      \usepackage{tcolorbox}
+      \usepackage{graphicx}
+params:
+  invoice_no: "INV-2026-001"
+  billed_to: |
+    John Doe
+    123 Sample Street
+    London, UK
+  payment_to: |
+    Voyara Bank Account
+    IBAN: CH76 0000 0000 0000 0000 0
+    SWIFT: VOYACHZZ
+  currency: "USD"
+  mode: "Bank Transfer"
+---
+
+```{r setup, include=FALSE}
+# Helper to replace newlines with LaTeX line breaks
+ltx_br <- function(x) {
+  gsub("\n", " \\\\\\\\ ", x)
+}
+```
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+  \textbf{FROM:} \\
+  Voyara Travel \& Education Services \\
+  Ringstrasse \\
+  8107 Switzerland \\
+  hello@voyara.example
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+  \hfill
+  \begin{tabular}{rl}
+    \textbf{INVOICE NO:} & `r params$invoice_no` \\
+    \textbf{DATE:} & `r Sys.Date()` \\
+    \textbf{CURRENCY:} & `r params$currency` \\
+    \textbf{PAYMENT MODE:} & `r params$mode`
+  \end{tabular}
+\end{minipage}
+
+\vspace{1cm}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+  \textbf{BILLED TO:} \\
+  `r ltx_br(params$billed_to)`
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+  \hfill
+  \begin{minipage}[t]{0.8\textwidth}
+    \raggedleft
+    \textbf{PAYMENT TO:} \\
+    `r ltx_br(params$payment_to)`
+  \end{minipage}
+\end{minipage}
+
+\vspace{1.5cm}
+
+| Description | Qty | Unit Price | Total |
+|:------------|:---:|:----------:|:-----:|
+| Tour Planning Services - Bali | 1 | 500.00 | 500.00 |
+| Visa Assistance Fee | 2 | 75.00 | 150.00 |
+| Flight Booking Service | 1 | 50.00 | 50.00 |
+| | | | |
+| **SUBTOTAL** | | | **700.00** |
+| **TAX (0%)** | | | **0.00** |
+| **TOTAL AMOUNT** | | | **`r params$currency` 700.00** |
+
+\vspace{2cm}
+
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+  \textbf{Terms \& Conditions:} \\
+  1. Please pay within 15 days. \\
+  2. Quote invoice number in payment reference.
+\end{minipage}%
+\begin{minipage}[t]{0.4\textwidth}
+  \hfill
+  \begin{tcolorbox}[colframe=red!50!black,colback=white,width=3.5cm,arc=2mm,boxrule=1pt,halign=center]
+    \small \textbf{VOYARA} \\
+    \footnotesize \textcolor{red!50!black}{ELECTRONICALLY} \\
+    \footnotesize \textcolor{red!50!black}{STAMPED \& APPROVED} \\
+    \tiny `r Sys.Date()`
+  \end{tcolorbox}
+\end{minipage}
