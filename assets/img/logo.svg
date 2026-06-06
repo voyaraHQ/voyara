@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="34" viewBox="0 0 132 34">
+  <g fill="none">
+    <path d="M8 6 L14 24 L20 6" stroke="#0d6e6e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="14" cy="14" r="2.4" fill="#e2734a"/>
+    <text x="28" y="24" font-family="Fraunces, Georgia, serif" font-size="22" font-weight="600" fill="#122a2e">Voyara</text>
+  </g>
+</svg>
